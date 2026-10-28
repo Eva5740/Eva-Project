@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosa | Find a Home, Directly</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <!-- Header -->
+        <header class="header">
+            <a href="#" class="brand">
+                <span class="logo-icon">⌂</span>
+                <span class="brand-text">
+                    <strong>Hosa</strong>
+                    <small>Find a Home, Directly.</small>
+                </span>
+            </a>
+
+            <button class="notification" aria-label="Notifications">
+                ♧<span class="notification-dot"></span>
+            </button>
+        </header>
+
+        <!-- Welcome Banner -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Find a Home,<br><span>Directly.</span></h1>
+                <p>Discover rental properties<br>in Port Harcourt.</p>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <main class="main-content">
+
+            <section class="search-panel">
+                <label class="location-field">
+                    <span class="field-icon">●</span>
+                    <input
+                        type="text"
+                        placeholder="Port Harcourt, Rivers State"
+                        aria-label="Location"
+                    >
+                    <button class="filter-icon" aria-label="More filters">
+                        ☷
+                    </button>
+                </label>
+
+                <div class="filter-row">
+                    <label class="filter-field">
+                        <span class="currency-icon">₦</span>
+                        <span class="filter-text">
+                            <small>Min. Rent</small>
+                            <select aria-label="Minimum rent">
+                                <option value="50000">₦50,000</option>
+                                <option value="100000">₦100,000</option>
+                                <option value="200000">₦200,000</option>
+                                <option value="500000">₦500,000</option>
+                            </select>
+                        </span>
+                    </label>
+
+                    <label class="filter-field">
+                        <span class="house-icon">⌂</span>
+                        <span class="filter-text">
+                            <small>Property Type</small>
+                            <select aria-label="Property type">
+                                <option value="any">Any</option>
+                                <option value="duplex">Duplex</option>
+                                <option value="flat">Flat / Apartment</option>
+                                <option value="bungalow">Bungalow</option>
+                                <option value="self-contained">Self-contained</option>
+                            </select>
+                        </span>
+                    </label>
+                </div>
+
+                <button class="search-button" type="button">
+                    <span>⌕</span> Search Houses
+                </button>
+            </section>
+
+            <!-- Recently Listed -->
+            <section class="listings-section">
+                <div class="section-heading">
+                    <h2>Recently Listed</h2>
+                    <a href="#properties">See All <span>›</span></a>
+                </div>
+
+                <div class="property-grid" id="properties">
+
+                    <!-- Property One -->
+                    <article class="property-card">
+                        <div class="property-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=700&q=80"
+                                alt="Modern two-storey residential house"
+                            >
+                            <button class="favorite-button"
+                                aria-label="Save property">♡</button>
+                            <span class="verified-badge">✓ Verified</span>
+                        </div>
+
+                        <div class="property-info">
+                            <h3>3 Bedroom Duplex</h3>
+                            <p class="property-location">⌖ GRA, Port Harcourt</p>
+                            <p class="property-price">
+                                ₦1,200,000 <small>/ year</small>
+                            </p>
+                            <div class="property-features">
+                                <span>▤ 3 Beds</span>
+                                <span>♧ 3 Baths</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Property Two -->
+                    <article class="property-card">
+                        <div class="property-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=700&q=80"
+                                alt="Modern residential apartment"
+                            >
+                            <button class="favorite-button"
+                                aria-label="Save property">♡</button>
+                            <span class="verified-badge">✓ Verified</span>
+                        </div>
+
+                        <div class="property-info">
+                            <h3>2 Bedroom Flat</h3>
+                            <p class="property-location">⌖ Rumuigbo, Port Harcourt</p>
+                            <p class="property-price">
+                                ₦800,000 <small>/ year</small>
+                            </p>
+                            <div class="property-features">
+                                <span>▤ 2 Beds</span>
+                                <span>♧ 2 Baths</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav" aria-label="Main navigation">
+            <a href="#" class="nav-item active">
+                <span class="nav-icon">⌂</span>
+                <span>Home</span>
+            </a>
+
+            <a href="#properties" class="nav-item">
+                <span class="nav-icon">♡</span>
+                <span>Saved</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span class="nav-icon">☏</span>
+                <span>Enquiries</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span class="nav-icon">♙</span>
+                <span>Profile</span>
+            </a>
+        </nav>
+
+    </div>
+
+</body>
+</html>
